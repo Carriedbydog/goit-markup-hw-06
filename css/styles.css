@@ -618,6 +618,7 @@ address {
 .footer-social-list {
   display: flex;
   gap: 16px;
+  margin-right: 80px;
 }
 
 .footer-socials {
@@ -662,7 +663,62 @@ address {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-subs {
+}
+.footer-subs-caption {
+  text-align: center;
+  margin-bottom: 16px;
 
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.footer-subs-form {
+  display: flex;
+  gap: 24px;
+}
+.footer-subs-label {
+  display: flex;
+  gap: 24px;
+}
+.footer-subs-input {
+  widows: 264px;
+  height: 40px;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  border-radius: 4px;
+  border: 1px solid #fff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+.footer-subs-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 165px;
+  min-height: 40px;
+  padding: 8px 24px;
+  gap: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: var(--button-color);
+}
+.footer-subs-icon {
+}
 /**
   |============================
   | /FOOTER
@@ -920,12 +976,6 @@ address {
 }
 .modal-list {
   margin-bottom: 8px;
-  /* display: flex;
-  flex-direction: column;
-  max-width: 360px;
-  list-style: none;
-  padding: 0;
-  margin: 0 auto; */
 }
 .modal-item {
   margin-bottom: 4px;
