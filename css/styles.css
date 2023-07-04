@@ -685,6 +685,7 @@ address {
 .footer-subs-input {
   width: 264px;
   height: 40px;
+  padding-left: 16px;
 
   font-size: 12px;
   font-weight: 400;
@@ -706,7 +707,6 @@ address {
   min-width: 165px;
   min-height: 40px;
   padding: 8px 24px;
-  gap: 16px;
   border-radius: 4px;
   cursor: pointer;
   border: none;
@@ -719,6 +719,7 @@ address {
   background-color: var(--button-color);
 }
 .footer-subs-icon {
+  margin-left: 16px;
 }
 /**
   |============================
