@@ -718,6 +718,10 @@ address {
   color: #fff;
   background-color: var(--button-color);
 }
+.footer-subs-button:hover,
+.footer-subs-button:focus {
+  background-color: #31d0aa;
+}
 .footer-subs-icon {
   margin-left: 16px;
 }
