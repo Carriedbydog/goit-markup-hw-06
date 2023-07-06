@@ -18,6 +18,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
+    <link rel="stylesheet" href="./css/vars.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -58,6 +63,11 @@
             </li>
           </ul>
         </address>
+        <button class="header-btn js-open-menu" type="button">
+          <svg class="header-icon" width="32" height="22">
+            <use href="./images/icons.svg#vector"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -444,42 +454,42 @@
           <ul class="customers-list list">
             <li class="customers-item">
               <a class="customers-link" href="">
-                <svg class="clients" width="104" height="56">
+                <svg class="clients mobile" width="104" height="56">
                   <use href="./images/icons.svg#client1"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-item">
               <a class="customers-link" href="">
-                <svg class="clients" width="104" height="56">
+                <svg class="clients mobile" width="104" height="56">
                   <use href="./images/icons.svg#client2"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-item">
               <a class="customers-link" href="">
-                <svg class="clients" width="104" height="56">
+                <svg class="clients mobile" width="104" height="56">
                   <use href="./images/icons.svg#client3"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-item">
               <a class="customers-link" href="">
-                <svg class="clients" width="104" height="56">
+                <svg class="clients mobile" width="104" height="56">
                   <use href="./images/icons.svg#client4"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-item">
               <a class="customers-link" href="">
-                <svg class="clients" width="104" height="56">
+                <svg class="clients mobile" width="104" height="56">
                   <use href="./images/icons.svg#client5"></use>
                 </svg>
               </a>
             </li>
             <li class="customers-item">
               <a class="customers-link" href="">
-                <svg class="clients" width="104" height="56">
+                <svg class="clients mobile" width="104" height="56">
                   <use href="./images/icons.svg#client6"></use>
                 </svg>
               </a>
@@ -489,7 +499,7 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer-section container">
         <div class="footer-logo-side">
           <a class="logo-first-part-footer link" href="./index.html"
@@ -579,7 +589,7 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -677,6 +687,92 @@
         </form>
       </div>
     </div>
+
+    <div class="modal-menu js-menu-container is-open">
+      <button class="menu-btn-close js-close-menu">
+        <svg class="close-icon" width="8" height="8" aria-label="Close button">
+          <use href="./images/icons.svg#close-button"></use>
+        </svg>
+      </button>
+      <ul class="modal-menu-list list">
+        <li class="modal-menu-item">
+          <a class="modal-menu-link" href="./index.html">Studio</a>
+        </li>
+        <li class="modal-menu-item">
+          <a class="modal-menu-link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="modal-menu-item">
+          <a class="modal-menu-link" href="#">Contacts</a>
+        </li>
+      </ul>
+      <ul class="modal-menu-link-list list">
+        <li class="modal-menu-link-item">
+          <a class="modal-menu-link-tel" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li class="modal-menu-link-item">
+          <a class="modal-menu-link-mail" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="modal-social-list list">
+        <li class="modal-social-item">
+          <a
+            class="modal-social-link"
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener no-referrer"
+            aria-label="Instagram icon"
+          >
+            <svg class="modal-social-icons" width="24" height="24">
+              <use href="./images/icons.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="modal-social-item">
+          <a
+            class="modal-social-link"
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noopener no-referrer"
+            aria-label="Instagram icon"
+          >
+            <svg class="modal-social-icons" width="24" height="24">
+              <use href="./images/icons.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="modal-social-item">
+          <a
+            class="modal-social-link"
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener no-referrer"
+            aria-label="Instagram icon"
+          >
+            <svg class="modal-social-icons" width="24" height="24">
+              <use href="./images/icons.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="modal-social-item">
+          <a
+            class="modal-social-link"
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener no-referrer"
+            aria-label="Instagram icon"
+          >
+            <svg class="modal-social-icons" width="24" height="24">
+              <use href="./images/icons.svg#linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

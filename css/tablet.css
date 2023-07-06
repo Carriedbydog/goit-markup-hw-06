@@ -1,0 +1,120 @@
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  /**
+    |============================
+    | HEADER
+    |============================
+  */
+  .header-page {
+    border-bottom: 1px solid var(--cornflower);
+    box-shadow: var(--page-box-shadow);
+  }
+  .header-container {
+    width: 768px;
+    height: 72px;
+  }
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+  .header-menu {
+    display: flex;
+    gap: 40px;
+  }
+  .header-btn {
+    display: none;
+  }
+  .modal-menu {
+    display: none;
+  }
+  /* --------------------Address--------------------- */
+  .address-nav {
+    margin-left: auto;
+  }
+  .address-list {
+    display: block;
+    margin-left: auto;
+    gap: 12px;
+  }
+  .address-item + .address-item {
+    margin-left: auto;
+  }
+  /**
+  |============================
+  | HERo
+  |============================
+*/
+  .hero-section {
+    max-width: 768px;
+    max-height: 436px;
+    padding: 112px 0;
+  }
+  .hero-title {
+    align-items: center;
+    max-width: 496px;
+    margin-bottom: 36px;
+
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+
+  /**
+  |============================
+  | OUR GOALS
+  |============================
+*/
+
+  .goals-list {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .goals-title {
+    text-align: start;
+  }
+  .goals-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  /**
+  |============================
+  | OUR TEAM
+  |============================
+*/
+  .team-list {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 24px;
+  }
+  /**
+  |============================
+  | Customers
+  |============================
+*/
+  .customers-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .customers-item {
+    max-width: 168px;
+    max-height: 88px;
+
+    flex-basis: calc((100% - 48px) / 3);
+  }
+  .customers-item:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+  }
+
+  .customers-link {
+    padding: 16px 32px 16px 32px;
+  }
+  .mobile {
+    width: 104px;
+    height: 56px;
+  }
+}
