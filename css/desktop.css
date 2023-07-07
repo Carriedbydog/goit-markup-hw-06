@@ -144,7 +144,51 @@
   .customers-item {
     flex-basis: calc((100% - 120px) / 6);
   }
-  .customers-item:nth-last-child(n) {
+  /**
+  |============W================
+  | FOOTER
+  |============================
+*/
+  .footer {
+    padding: 100px 0;
+
+    background-color: #2e2f42;
+  }
+
+  .footer-logo-side {
+    margin-right: 120px;
+  }
+  footer-description {
     margin-bottom: 0;
+  }
+  .footer-socials {
+    flex-wrap: nowrap;
+  }
+
+  /**
+  |===========================================================================
+  | PORTFOLIO
+  |===========================================================================
+*/
+  .section-portfolio {
+    padding: 100px 120px 156px 156px;
+  }
+  .filter-list {
+    justify-content: center;
+    margin-bottom: 72px;
+  }
+  .portfolio-job-list {
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+  }
+  .portfolio-item {
+    min-width: 360px;
+    min-height: 420px;
+
+    width: calc((100% - 48px) / 3);
+  }
+  .portfolio-block {
+    min-width: 360px;
   }
 }

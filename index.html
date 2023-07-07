@@ -63,7 +63,7 @@
             </li>
           </ul>
         </address>
-        <button class="header-btn js-open-menu" type="button">
+        <button class="header-btn" type="button" data-menu-open>
           <svg class="header-icon" width="32" height="22">
             <use href="./images/icons.svg#vector"></use>
           </svg>
@@ -499,7 +499,7 @@
       </section>
     </main>
     <!-- Footer -->
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="footer-section container">
         <div class="footer-logo-side">
           <a class="logo-first-part-footer link" href="./index.html"
@@ -567,6 +567,7 @@
             </li>
           </ul>
         </div>
+
         <div class="footer-subs">
           <p class="footer-subs-caption">Subscribe</p>
           <form class="footer-subs-form">
@@ -589,7 +590,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -688,8 +689,8 @@
       </div>
     </div>
 
-    <div class="modal-menu js-menu-container is-open">
-      <button class="menu-btn-close js-close-menu">
+    <div class="modal-menu is-open" data-menu>
+      <button class="menu-btn-close" data-menu-close>
         <svg class="close-icon" width="8" height="8" aria-label="Close button">
           <use href="./images/icons.svg#close-button"></use>
         </svg>
@@ -772,7 +773,7 @@
         </li>
       </ul>
     </div>
-    <script src="./js/modal.js"></script>
-    <script src="./js/menu.js"></script>
+    <script src="./js/modal.js" type="module"></script>
+    <script src="./js/menu.js" type="module"></script>
   </body>
 </html>
